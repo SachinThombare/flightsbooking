@@ -7,6 +7,7 @@ public class TestNG_Grouping {
 	@BeforeClass
 	public void beforeClass() {
 		System.out.println("This method runs before class");
+		System.out.println("This is change to see git changes");
 	}
 	@BeforeMethod(alwaysRun = true)
 	public void beforeMethod() {
