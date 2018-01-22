@@ -25,7 +25,7 @@ public class TestNG_TestSuite {
 
 		// Maximize the browser's window
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		PropertyConfigurator.configure("log4j.properties");
 		driver.get(baseUrl);
 	}
